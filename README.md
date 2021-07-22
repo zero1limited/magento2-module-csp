@@ -74,4 +74,4 @@ Consider adding:
     </csp>
 </default>
 ```
-to `app/etc/config.xml`
+to `app/code/Zero1/Csp/etc/config.xml`
