@@ -13,4 +13,39 @@
             </mode>
         </csp>
     </default>
+    <!-- store specific whitelisting -->
+    <!--
+    <stores>
+        <STORE_1_CODE>
+            <csp>
+                <policies>
+                    <storefront>
+                        <custom_example_script>
+                            <policy_id>script-src</policy_id>
+                            <hosts>
+                                <host_1>*.example.io</host_1>
+                                <host_2>scripts.example.com</host_2>
+                            </hosts>
+                        </custom_example_script>
+                    </storefront>
+                </policies>
+            </csp>
+        </STORE_1_CODE>
+        <STORE_2_CODE>
+            <csp>
+                <policies>
+                    <storefront>
+                        <custom_example_script>
+                            <policy_id>script-src</policy_id>
+                            <hosts>
+                                <host_1>*.examplez.io</host_1>
+                                <host_2>scripts.examplez.com</host_2>
+                            </hosts>
+                        </custom_example_script>
+                    </storefront>
+                </policies>
+            </csp>
+        </STORE_2_CODE>
+    </stores>
+    -->
 </config>
